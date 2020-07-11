@@ -21,7 +21,7 @@ function dbconnect(){
 
 	$host = 'localhost';
 	$user = 'root';
-	$password = '';
+	$password = 'danroot';
 	$database = 'backendphp';
 
 	$mysql = new mysqli($host, $user, $password, $database);
